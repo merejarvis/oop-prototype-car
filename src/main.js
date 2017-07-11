@@ -7,10 +7,15 @@
 * so you don't have tornado of console.logs
 */
 
-// // Step 0 - require / import the carFn file
+// // Step 0 - require / import the carFn file, comes together with module.exports
+
+var CarPhase1 = require('./carFn')//returns object
+
 
 // // Step 1 - Checking all properties
 // console.log the `Car` object, does it returns all the properties requested?
+
+console.log(Car);
 
 // // Step 2 - Run `Car.sell()` function
 // `Car` object should be able to run `sell` function,
@@ -25,6 +30,9 @@
 
 // // Repeat the same steps to Phase I, but this time require the the class file
 // // instead of the the `carFn` file
+
+var Car = require('./Car') //returns function, class is a function??
+
 
 
 // Phase III
